@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#clock{
+    text-align: center;
+    font-size: 6rem;
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(30px);
+    width: 100%;
+    
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('mesh-1430108_1280.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
